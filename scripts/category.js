@@ -6,7 +6,7 @@ function showVideos(event) {
     const category = button.getAttribute('data-category').toLowerCase();
 
     filtervideos(category);
-    activeButton(butoon);
+    activeButton(button);
 }
 
 function filtervideos(category) {
